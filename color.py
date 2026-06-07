@@ -22,8 +22,8 @@ app.add_middleware(
 # ==========================
 # LOAD MODELS
 # ==========================
-modelxg = r"D:\work\Aj Ying\backend\xgb_regression.pkl"
-modelyolo = r"D:\work\Aj Ying\backend\best.pt"
+modelxg = "xgb_regression.pkl"
+modelyolo = "best.pt"
 yolo_model = YOLO(modelyolo)
 xgb_model = joblib.load(modelxg)
 
